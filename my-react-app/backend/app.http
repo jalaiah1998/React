@@ -1,0 +1,133 @@
+GET  http://localhost:3021/
+
+###
+POST  http://localhost:3021/Designation
+Content-Type: application/json
+
+{
+    "name":"jalaiah",
+    "month":"Auguest",
+    "Designation":"Fronted developer",
+    "location":"ongole",
+    "workDays":"6 days",
+    "Duration":"2 years",
+    "salary":"8 lakhs",
+    "HRA":"5000",
+    "Medical":"2000",
+    "Transpot":"1000",
+    "allowance":"500",
+    "pf":"800",
+    "profisonaltax":"200",
+    "total":"40000"
+    
+}
+
+###
+GET http://localhost:3021/allpeople
+
+
+
+
+
+###
+POST http://localhost:3051/subjectData
+Content-Type: application/json
+
+{
+     "name":"Frontend188021",
+    "Description":"chapters121",
+     "subjecttag":"Add990121"
+
+}
+
+###
+DELETE http://localhost:3051/deleteInstitute/655306c25045e5c039d7db2a
+
+###
+PUT http://localhost:3051/UpdateInstitute/655312fba5b04c69cd2f3ece
+Content-Type: application/json
+
+{
+     "name":"react",
+    "Description":"chapters19",
+     "subjecttag":"Add17"
+
+}
+
+# chapter
+
+###
+POST http://localhost:3051/chapterData
+Content-Type: application/json
+
+{
+     "name1":"backend11010321211012",
+    "Description1":"subii0132111012",
+     "subjecttag1":"Add558k011223111012",
+      "chaptertag":"Bot7l011232111102"
+}
+
+###
+DELETE  http://localhost:3051/deleteInstitute/6555b829704891f8c3f690cb
+
+###
+PUT http://localhost:3051/UpdateInstitute/655de4d6a040c20e0a1edb06
+
+
+
+
+# parag
+
+###
+post http://localhost:3051/viewData
+Content-Type: application/json
+
+{
+    "module":"React",
+    "chapter":"chapter1213",
+    "diffculty":"express123",
+    "refernce":"React121",
+    "questiontype":"React121"
+
+}
+
+# mcq
+
+###
+
+POST http://localhost:3051/paragdata
+Content-Type: application/json
+
+
+{
+       "subject":"Node1",
+      "chapter1":"Node181",
+     "diffculty1":"hard201271",
+    "reference1":"Node181"
+}
+
+# coding
+###
+POST http://localhost:3051/codingdata
+Content-Type: application/json
+
+
+{
+     "subject1":"Express12",
+    "chapter2" :"Express12"
+}
+
+
+
+
+
+
+
+
+
+###
+GET http://localhost:3051/allperfexData
+###
+GET http://localhost:3051/allchapterData
+###
+GET http://localhost:3051/allsubjectData
